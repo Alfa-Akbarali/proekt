@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proect</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">Food <span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#home">
+                <span class="icons">
+                    <ion-icon name="home-outline"></ion-icon>
+                </span> Home</a>
+            </li>
+            <li><a href="#home">
+                <span class="icons">
+                    <ion-icon name="apps-outline"></ion-icon>
+                </span> About</a>
+            </li>
+            <li><a href="#home">
+                <span class="icons">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </span> Menu</a>
+            </li>
+            <li><a href="#about">
+                <span class="icons">
+                    <ion-icon name="people-outline"></ion-icon>
+                </span> Profile</a>
+            </li>
+            <li><a href="#menu">
+                <span class="icons">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </span> Message</a>
+            </li>
+            <li><a href="#expert">
+                <span class="icons">
+                    <ion-icon name="settings-outline"></ion-icon>
+                </span>Setings</a>
+            </li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p class="lorem">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, totam! Facere modi deserunt
+                debitis, consequuntur eius similique odio beatae sequi impedit iusto qui, deleniti vel animi minus
+                obcaecati necessitatibus quod.
+            </p>
+            <a href="#" class="btn">Our Menu</a>
+        </div>
+    </section>
+    <section class="about" id="banner ">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, quas quaerat? Ipsum maxime ut
+                    magni incidunt hic dolorem quisquam id quos harum ullam unde voluptatibus consectetur, nemo
+                    veritatis esse praesentium porro cumque quas saepe maiores inventore molestiae? Harum, ad. Autem
+                    exercitationem ullam cum aspernatur itaque vitae eum aperiam distinctio quo. Quibusdam, consequuntur
+                    quam perferendis quasi assumenda autem magnam laudantium nesciunt!<br><br>Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Deleniti accusantium impedit labore consequuntur minus. Ullam, officia
+                    itaque adipisci hic assumenda veritatis illum explicabo velit corporis autem optio rerum. Debitis
+                    beatae minima, et unde alias magni. Cumque dicta qui neque magnam illo odio nihil voluptatem quia
+                    mollitia quidem quaerat, tenetur, inventore, molestias ex voluptatum officia? Sequi saepe assumenda
+                    placeat vel odio.</p>
+            </div>
+            <div class="col50">
+                <img src="img.jpg" class="imgcity">
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+    <section class="menu" id="banner ">
+        <div class="title">
+            <div class="col50">
+                <h2 class="titleText">Our<span>M</span>Menu</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, blanditiis.<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, perspiciatis.</p><br>
+            <div class="content">
+                <div class="box">
+                    <img src="img1.jpg" class="imgtower1">
+                    <div class="text">Eiffel Tower
+                    </div>
+                </div>
+
+                <div class="box1">
+                    <img src="tower2.jpg" class="imgtower2">
+                    <div class="text">Pisa
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <script type="text/javasctipt">
+        window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toogle("sticky", window.scrollY > 0 );
+    });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
