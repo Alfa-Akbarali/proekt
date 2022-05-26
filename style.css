@@ -67,12 +67,13 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+    border-bottom: 2px solid black;
 }
 header.sticky{
     background: rgb(2,0,36);
 background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(61,68,198,1) 9%, rgba(0,212,255,1) 100%);
     padding: 10px 100px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 5);
+    box-shadow: 0px 5px 21px 10px rgba(34, 60, 80, 0.2);
 }
 header .logo{
     color: #fff;
