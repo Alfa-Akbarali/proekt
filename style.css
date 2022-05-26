@@ -67,7 +67,6 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    border-bottom: 2px solid black;
 }
 header.sticky{
     background: rgb(2,0,36);
@@ -106,7 +105,9 @@ header.sticky .navigation li a{
 header .navigation li a:hover{
     color: #ff0157;
 }
-
+.banner{
+    
+}
 section.about{
     padding: 25vh;
     background: #888d92;
